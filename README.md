@@ -1,3 +1,5 @@
+
+
 # Bot para Discord
 Este recurso foi criado com finalidade em auxiliar donos de servidores. A funcionalidade foi experimental(a fins de estudo), podendo ser aprimorada para melhor uso.
 ## Funcionalidades
@@ -15,7 +17,7 @@ Este recurso foi criado com finalidade em auxiliar donos de servidores. A funcio
 
 - lock
 
-> **- Para evitar ataques de spam, use para trancar todos os canais de texto do seu servidor.**
+> **- Para evitar ataques de spam, use para trancar canais do seu servidor.**
   
 - ping
 
@@ -61,11 +63,15 @@ Este recurso foi criado com finalidade em auxiliar donos de servidores. A funcio
 - Em `"Bot"`, na categoria `TOKEN`, selecione `Reset Token`
 - Copie seu token
 6. Crie um arquivo no diretório raiz chamado `"bottoken.js"` e cole seu token da seguinte forma:
-  ```
+
+```
 module.exports = {
     token: 'seuTokenAqui'
 }
-  ```
+```
+
 7. No terminal, inicie digitando `node index.js`
 > [!WARNING]
 > Dependendo do momento que esteja vendo isso, a biblioteca do [Discord.js](https://discord.js.org/) esteja mais atualizada, leia a documentação se necessário.
+
+![](https://i.imgur.com/xBNOOS7.png)
